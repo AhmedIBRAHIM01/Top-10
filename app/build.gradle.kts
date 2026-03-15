@@ -44,6 +44,14 @@ dependencies {
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.0")
+    dependencies {
+        // Für StateFlow (Empfohlen)
+        implementation("androidx.lifecycle:lifecycle-runtime-compose:2.6.2")
+
+        // Falls du LiveData benutzt
+        implementation("androidx.compose.runtime:runtime-livedata:1.5.4")
+    }
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
