@@ -14,17 +14,26 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.top10.AppLanguage
 import com.example.top10.model.Answer
 import com.example.top10.viewmodle.GameViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun GameScreen(viewModel: GameViewModel) {
+    val language = viewModel.selectedLanguage.value ?: AppLanguage.GERMAN
     // Daten direkt aus dem ViewModel lesen (da mutableStateOf verwendet wird)
+
     val question = viewModel.currentQuestion.value
     val answers = viewModel.answers.value
     val t1 = viewModel.team1.value
     val t2 = viewModel.team2.value
+    val questionText = when (language) {
+        AppLanguage.GERMAN -> question.textGerman
+        AppLanguage.ENGLISH -> question.textEnglish
+        AppLanguage.ARABIC -> question.textArabic
+        else -> question.textGerman
+    }
 
     Column(
         modifier = Modifier
@@ -39,7 +48,7 @@ fun GameScreen(viewModel: GameViewModel) {
             modifier = Modifier.fillMaxWidth().padding(bottom = 8.dp)
         ) {
             Text(
-                text = question.text,
+                text = questionText,
                 style = MaterialTheme.typography.titleLarge, // Etwas kleinere Schrift
                 modifier = Modifier.padding(12.dp),
                 textAlign = TextAlign.Center,
@@ -68,10 +77,11 @@ fun GameScreen(viewModel: GameViewModel) {
         ) {
             items(
                 items = answers, // Das kommt jetzt frisch aus dem ViewModel
-                key = { it.text + question.text } // Kombination aus Text und Frage macht den Key absolut eindeutiganswers
+                key = { it.textGerman + question.textGerman }// Kombination aus Text und Frage macht den Key absolut eindeutiganswers
                          ) { answer ->
                 AnswerSwipeItem(
                     answer = answer,
+                    language = language,
                     onSwipeLeft = { viewModel.assignAnswerToTeam(answer, 1) },
                     onSwipeRight = { viewModel.assignAnswerToTeam(answer, 2) }
                 )
@@ -106,9 +116,16 @@ fun CompactScoreDisplay(name: String, score: Int, color: Color) {
 @Composable
 fun AnswerSwipeItem(
     answer: Answer,
+    language: AppLanguage,
     onSwipeLeft: () -> Unit,
     onSwipeRight: () -> Unit
 ) {
+
+    val answerText = when (language) {
+        AppLanguage.GERMAN -> answer.textGerman
+        AppLanguage.ENGLISH -> answer.textEnglish
+        AppLanguage.ARABIC -> answer.textArabic
+    }
     // State für die Swipe-Geste
     val dismissState = rememberSwipeToDismissBoxState(
         confirmValueChange = { value ->
@@ -160,7 +177,7 @@ fun AnswerSwipeItem(
                 horizontalArrangement = Arrangement.SpaceBetween
             ) {
                 Text(
-                    text = answer.text, // Antwort IMMER anzeigen (da Spielleiter-App)
+                    text = answerText, // Antwort IMMER anzeigen (da Spielleiter-App)
                     style = MaterialTheme.typography.bodyLarge,
                     fontWeight = if (answer.used) FontWeight.Normal else FontWeight.Medium,
                     maxLines = 1,

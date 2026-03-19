@@ -1,6 +1,8 @@
 package com.example.top10.model
 
 data class Question (
-    val text:String,
+    val textGerman:String,
+    val textEnglish:String,
+    val textArabic:String,
     val answers: List<Answer>
 )
