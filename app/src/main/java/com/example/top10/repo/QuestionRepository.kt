@@ -5,112 +5,60 @@ import com.example.top10.model.Question
 
 val sampleQuestions = listOf(
 
+    // 1️⃣ REICHE LÄNDER
     Question(
-        "Top 10 reichste Länder",
-        listOf(
-            Answer("Luxemburg", 1),
-            Answer("Schweiz", 2),
-            Answer("Irland", 3),
-            Answer("Norwegen", 4),
-            Answer("USA", 5),
-            Answer("Dänemark", 6),
-            Answer("Niederlande", 7),
-            Answer("Island", 8),
-            Answer("Singapur", 9),
-            Answer("Australien", 10)
+        textGerman = "Nenne die Top 10 reichsten Länder",
+        textEnglish = "Name the top 10 richest countries",
+        textArabic = "اذكر أغنى 10 دول في العالم",
+        answers = listOf(
+            Answer("Luxemburg", "Luxembourg", "لوكسمبورغ", 1),
+            Answer("Schweiz", "Switzerland", "سويسرا", 2),
+            Answer("Irland", "Ireland", "إيرلندا", 3),
+            Answer("Norwegen", "Norway", "النرويج", 4),
+            Answer("USA", "USA", "الولايات المتحدة", 5),
+            Answer("Dänemark", "Denmark", "الدنمارك", 6),
+            Answer("Niederlande", "Netherlands", "هولندا", 7),
+            Answer("Island", "Iceland", "آيسلندا", 8),
+            Answer("Singapur", "Singapore", "سنغافورة", 9),
+            Answer("Australien", "Australia", "أستراليا", 10)
         )
     ),
 
+    // 2️⃣ STÄDTE
     Question(
-        "Top 10 größte Städte der Welt",
-        listOf(
-            Answer("Tokio",1),
-            Answer("Delhi",2),
-            Answer("Shanghai",3),
-            Answer("São Paulo",4),
-            Answer("Mexico City",5),
-            Answer("Cairo",6),
-            Answer("Dhaka",7),
-            Answer("Mumbai",8),
-            Answer("Beijing",9),
-            Answer("Osaka",10)
+        textGerman = "Nenne die Top 10 größten Städte",
+        textEnglish = "Name the top 10 largest cities",
+        textArabic = "اذكر أكبر 10 مدن في العالم",
+        answers = listOf(
+            Answer("Tokio", "Tokyo", "طوكيو", 1),
+            Answer("Delhi", "Delhi", "دلهي", 2),
+            Answer("Shanghai", "Shanghai", "شنغهاي", 3),
+            Answer("São Paulo", "São Paulo", "ساو باولو", 4),
+            Answer("Mexico City", "Mexico City", "مكسيكو سيتي", 5),
+            Answer("Kairo", "Cairo", "القاهرة", 6),
+            Answer("Dhaka", "Dhaka", "دكا", 7),
+            Answer("Mumbai", "Mumbai", "مومباي", 8),
+            Answer("Peking", "Beijing", "بكين", 9),
+            Answer("Osaka", "Osaka", "أوساكا", 10)
         )
     ),
 
+    // 3️⃣ FILME
     Question(
-        "Dinge, die man im Kino kauft",
-        listOf(
-            Answer("Popcorn", 1),
-            Answer("Nachos", 2),
-            Answer("Cola/Softdrinks", 3),
-            Answer("Eiskonfekt", 4),
-            Answer("Gummibärchen", 5),
-            Answer("Bier", 6),
-            Answer("Slush-Eis", 7),
-            Answer("Chips", 8),
-            Answer("Schokolade", 9),
-            Answer("Kaffee", 10)
-        )
-    ),
-    Question(
-        "Beliebte Haustiere in Deutschland",
-        listOf(
-            Answer("Katzen", 1),
-            Answer("Hunde", 2),
-            Answer("Kaninchen", 3),
-            Answer("Meerschweinchen", 4),
-            Answer("Hamster", 5),
-            Answer("Vögel", 6),
-            Answer("Fische", 7),
-            Answer("Schildkröten", 8),
-            Answer("Pferde", 9),
-            Answer("Schlangen", 10)
-        )
-    ),
-    Question(
-        "Was findet man in einer Handtasche?",
-        listOf(
-            Answer("Handy", 1),
-            Answer("Geldbeutel", 2),
-            Answer("Schlüssel", 3),
-            Answer("Lippenstift", 4),
-            Answer("Taschentücher", 5),
-            Answer("Kaugummi", 6),
-            Answer("Handcreme", 7),
-            Answer("Spiegel", 8),
-            Answer("Kuli/Stift", 9),
-            Answer("Parfüm", 10)
-        )
-    ),
-    Question(
-        "Top 10 Automarken in Deutschland (nach Bestand)",
-        listOf(
-            Answer("Volkswagen", 1),
-            Answer("Mercedes", 2),
-            Answer("Opel", 3),
-            Answer("BMW", 4),
-            Answer("Ford", 5),
-            Answer("Audi", 6),
-            Answer("Skoda", 7),
-            Answer("Renault", 8),
-            Answer("Toyota", 9),
-            Answer("Fiat", 10)
-        )
-    ),
-    Question(
-        "Was macht man direkt nach dem Aufstehen?",
-        listOf(
-            Answer("Zähneputzen", 1),
-            Answer("Kaffee trinken", 2),
-            Answer("Duschen", 3),
-            Answer("Handy checken", 4),
-            Answer("Anziehen", 5),
-            Answer("Frühstücken", 6),
-            Answer("Dehnen/Strecken", 7),
-            Answer("Toilette gehen", 8),
-            Answer("Bett machen", 9),
-            Answer("Radio/Musik an", 10)
+        textGerman = "Nenne die Top 10 erfolgreichsten Filme",
+        textEnglish = "Name the top 10 highest grossing movies",
+        textArabic = "اذكر أكثر 10 أفلام تحقيقاً للإيرادات",
+        answers = listOf(
+            Answer("Avatar", "Avatar", "أفاتار", 1),
+            Answer("Avengers Endgame", "Avengers Endgame", "أفنجرز النهاية", 2),
+            Answer("Titanic", "Titanic", "تايتانيك", 3),
+            Answer("Star Wars", "Star Wars", "حرب النجوم", 4),
+            Answer("Frozen", "Frozen", "فروزن", 5),
+            Answer("Jurassic World", "Jurassic World", "عالم الديناصورات", 6),
+            Answer("Lion King", "Lion King", "الأسد الملك", 7),
+            Answer("Spider-Man", "Spider-Man", "سبايدر مان", 8),
+            Answer("Batman", "Batman", "باتمان", 9),
+            Answer("Harry Potter", "Harry Potter", "هاري بوتر", 10)
         )
     )
 )
-

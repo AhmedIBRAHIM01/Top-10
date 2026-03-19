@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.top10.ui.screen.GameScreen
+import com.example.top10.ui.screen.LanguageScreen
 import com.example.top10.viewmodle.GameViewModel
 
 class MainActivity : ComponentActivity() {
@@ -15,7 +16,11 @@ class MainActivity : ComponentActivity() {
 
             val viewModel: GameViewModel = viewModel()
 
-            GameScreen(viewModel)
+            if (viewModel.selectedLanguage.value == null) {
+                LanguageScreen(viewModel)
+            } else {
+                GameScreen(viewModel)
+            }
 
         }
     }
