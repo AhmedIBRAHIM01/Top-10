@@ -1,0 +1,614 @@
+[
+  {
+    "textGerman": "Nenne die Top 10 reichsten Länder (BIP pro Kopf)",
+    "textEnglish": "Name the top 10 richest countries (GDP per capita)",
+    "textArabic": "اذكر أغنى 10 دول في العالم (حسب نصيب الفرد من الناتج المحلي)",
+    "answers": [
+      { "textGerman": "Luxemburg", "textEnglish": "Luxembourg", "textArabic": "لوكسمبورغ", "rank": 1 },
+      { "textGerman": "Irland", "textEnglish": "Ireland", "textArabic": "أيرلندا", "rank": 2 },
+      { "textGerman": "Schweiz", "textEnglish": "Switzerland", "textArabic": "سويسرا", "rank": 3 },
+      { "textGerman": "Norwegen", "textEnglish": "Norway", "textArabic": "النرويج", "rank": 4 },
+      { "textGerman": "Singapur", "textEnglish": "Singapore", "textArabic": "سنغافورة", "rank": 5 },
+      { "textGerman": "USA", "textEnglish": "USA", "textArabic": "الولايات المتحدة", "rank": 6 },
+      { "textGerman": "Island", "textEnglish": "Iceland", "textArabic": "آيسلندا", "rank": 7 },
+      { "textGerman": "Dänemark", "textEnglish": "Denmark", "textArabic": "الدنمارك", "rank": 8 },
+      { "textGerman": "Niederlande", "textEnglish": "Netherlands", "textArabic": "هولندا", "rank": 9 },
+      { "textGerman": "Australien", "textEnglish": "Australia", "textArabic": "أستراليا", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne die 10 größten Wüsten der Erde",
+    "textEnglish": "Name the 10 largest deserts on Earth",
+    "textArabic": "اذكر أكبر 10 صحارى في العالم",
+    "answers": [
+      { "textGerman": "Antarktis", "textEnglish": "Antarctica", "textArabic": "أنتاركتيكا", "rank": 1 },
+      { "textGerman": "Arktis", "textEnglish": "Arctic", "textArabic": "الصحراء القطبية الشمالية", "rank": 2 },
+      { "textGerman": "Sahara", "textEnglish": "Sahara", "textArabic": "الصحراء الكبرى", "rank": 3 },
+      { "textGerman": "Arabische Wüste", "textEnglish": "Arabian Desert", "textArabic": "الصحراء العربية", "rank": 4 },
+      { "textGerman": "Gobi", "textEnglish": "Gobi", "textArabic": "صحراء غوبي", "rank": 5 },
+      { "textGerman": "Kalahari", "textEnglish": "Kalahari", "textArabic": "كالاهاري", "rank": 6 },
+      { "textGerman": "Patagonische Wüste", "textEnglish": "Patagonian Desert", "textArabic": "صحراء باتاغونيا", "rank": 7 },
+      { "textGerman": "Syrische Wüste", "textEnglish": "Syrian Desert", "textArabic": "بادية الشام", "rank": 8 },
+      { "textGerman": "Große Victoria-Wüste", "textEnglish": "Great Victoria Desert", "textArabic": "صحراء فيكتوريا الكبرى", "rank": 9 },
+      { "textGerman": "Große Becken", "textEnglish": "Great Basin Desert", "textArabic": "صحراء الحوض العظيم", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne die 10 Fußballer mit den meisten Ballon d'Or Auszeichnungen",
+    "textEnglish": "Name the 10 footballers with the most Ballon d'Or awards",
+    "textArabic": "اذكر أكثر 10 لاعبين فوزاً بجائزة الكرة الذهبية",
+    "answers": [
+      { "textGerman": "Lionel Messi", "textEnglish": "Lionel Messi", "textArabic": "ليونيل ميسي", "rank": 1 },
+      { "textGerman": "Cristiano Ronaldo", "textEnglish": "Cristiano Ronaldo", "textArabic": "كريستيانو رونالدو", "rank": 2 },
+      { "textGerman": "Michel Platini", "textEnglish": "Michel Platini", "textArabic": "ميشيل بلاتيني", "rank": 3 },
+      { "textGerman": "Johan Cruyff", "textEnglish": "Johan Cruyff", "textArabic": "يوهان كرويف", "rank": 4 },
+      { "textGerman": "Marco van Basten", "textEnglish": "Marco van Basten", "textArabic": "ماركو فان باستن", "rank": 5 },
+      { "textGerman": "Franz Beckenbauer", "textEnglish": "Franz Beckenbauer", "textArabic": "فرانس بيكنباور", "rank": 6 },
+      { "textGerman": "Ronaldo Nazário", "textEnglish": "Ronaldo Nazário", "textArabic": "رونالدو الظاهرة", "rank": 7 },
+      { "textGerman": "Alfredo Di Stéfano", "textEnglish": "Alfredo Di Stéfano", "textArabic": "ألفريدو دي ستيفانو", "rank": 8 },
+      { "textGerman": "Kevin Keegan", "textEnglish": "Kevin Keegan", "textArabic": "كيفن كيغان", "rank": 9 },
+      { "textGerman": "Karl-Heinz Rummenigge", "textEnglish": "Karl-Heinz Rummenigge", "textArabic": "كارل هاينز رومينيغه", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne die 10 meistverkauften Alben aller Zeiten",
+    "textEnglish": "Name the 10 best-selling albums of all time",
+    "textArabic": "اذكر أكثر 10 ألبومات مبيعاً في التاريخ",
+    "answers": [
+      { "textGerman": "Thriller (Michael Jackson)", "textEnglish": "Thriller", "textArabic": "ثريلر", "rank": 1 },
+      { "textGerman": "Back in Black (AC/DC)", "textEnglish": "Back in Black", "textArabic": "باك إن بلاك", "rank": 2 },
+      { "textGerman": "The Bodyguard (Whitney Houston)", "textEnglish": "The Bodyguard", "textArabic": "الحارس الشخصي", "rank": 3 },
+      { "textGerman": "The Dark Side of the Moon", "textEnglish": "The Dark Side of the Moon", "textArabic": "جانب القمر المظلم", "rank": 4 },
+      { "textGerman": "Their Greatest Hits (Eagles)", "textEnglish": "Their Greatest Hits", "textArabic": "أعظم ضرباتهم", "rank": 5 },
+      { "textGerman": "Bat Out of Hell", "textEnglish": "Bat Out of Hell", "textArabic": "بات آوت أوف هيل", "rank": 6 },
+      { "textGerman": "Come On Over (Shania Twain)", "textEnglish": "Come On Over", "textArabic": "كوم أون أوفر", "rank": 7 },
+      { "textGerman": "Rumours (Fleetwood Mac)", "textEnglish": "Rumours", "textArabic": "إشاعات", "rank": 8 },
+      { "textGerman": "Saturday Night Fever", "textEnglish": "Saturday Night Fever", "textArabic": "حمى ليلة السبت", "rank": 9 },
+      { "textGerman": "Led Zeppelin IV", "textEnglish": "Led Zeppelin IV", "textArabic": "ليد زيبلين 4", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne die 10 chemischen Elemente mit den niedrigsten Ordnungszahlen",
+    "textEnglish": "Name the 10 chemical elements with the lowest atomic numbers",
+    "textArabic": "اذكر أول 10 عناصر كيميائية في الجدول الدوري",
+    "answers": [
+      { "textGerman": "Wasserstoff", "textEnglish": "Hydrogen", "textArabic": "هيدروجين", "rank": 1 },
+      { "textGerman": "Helium", "textEnglish": "Helium", "textArabic": "هيليوم", "rank": 2 },
+      { "textGerman": "Lithium", "textEnglish": "Lithium", "textArabic": "ليثيوم", "rank": 3 },
+      { "textGerman": "Beryllium", "textEnglish": "Beryllium", "textArabic": "بيريليوم", "rank": 4 },
+      { "textGerman": "Bor", "textEnglish": "Boron", "textArabic": "بورون", "rank": 5 },
+      { "textGerman": "Kohlenstoff", "textEnglish": "Carbon", "textArabic": "كربون", "rank": 6 },
+      { "textGerman": "Stickstoff", "textEnglish": "Nitrogen", "textArabic": "نيتروجين", "rank": 7 },
+      { "textGerman": "Sauerstoff", "textEnglish": "Oxygen", "textArabic": "أكسجين", "rank": 8 },
+      { "textGerman": "Fluor", "textEnglish": "Fluorine", "textArabic": "فلور", "rank": 9 },
+      { "textGerman": "Neon", "textEnglish": "Neon", "textArabic": "نيون", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne die 10 Planeten und Zwergplaneten unseres Sonnensystems nach Nähe zur Sonne",
+    "textEnglish": "Name the 10 planets and dwarf planets of our solar system by proximity to the Sun",
+    "textArabic": "اذكر أقرب 10 كواكب وكواكب قزمة إلى الشمس",
+    "answers": [
+      { "textGerman": "Merkur", "textEnglish": "Mercury", "textArabic": "عطارد", "rank": 1 },
+      { "textGerman": "Venus", "textEnglish": "Venus", "textArabic": "الزهرة", "rank": 2 },
+      { "textGerman": "Erde", "textEnglish": "Earth", "textArabic": "الأرض", "rank": 3 },
+      { "textGerman": "Mars", "textEnglish": "Mars", "textArabic": "المريخ", "rank": 4 },
+      { "textGerman": "Ceres", "textEnglish": "Ceres", "textArabic": "سيريس", "rank": 5 },
+      { "textGerman": "Jupiter", "textEnglish": "Jupiter", "textArabic": "المشتري", "rank": 6 },
+      { "textGerman": "Saturn", "textEnglish": "Saturn", "textArabic": "زحل", "rank": 7 },
+      { "textGerman": "Uranus", "textEnglish": "Uranus", "textArabic": "أورانوس", "rank": 8 },
+      { "textGerman": "Neptun", "textEnglish": "Neptune", "textArabic": "نبتون", "rank": 9 },
+      { "textGerman": "Pluto", "textEnglish": "Pluto", "textArabic": "بلوتو", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne die 10 kleinsten Länder der Welt (nach Fläche)",
+    "textEnglish": "Name the 10 smallest countries in the world (by area)",
+    "textArabic": "اذكر أصغر 10 دول في العالم من حيث المساحة",
+    "answers": [
+      { "textGerman": "Vatikanstadt", "textEnglish": "Vatican City", "textArabic": "الفاتيكان", "rank": 1 },
+      { "textGerman": "Monaco", "textEnglish": "Monaco", "textArabic": "موناكو", "rank": 2 },
+      { "textGerman": "Nauru", "textEnglish": "Nauru", "textArabic": "ناورو", "rank": 3 },
+      { "textGerman": "Tuvalu", "textEnglish": "Tuvalu", "textArabic": "توفالو", "rank": 4 },
+      { "textGerman": "San Marino", "textEnglish": "San Marino", "textArabic": "سان مارينو", "rank": 5 },
+      { "textGerman": "Liechtenstein", "textEnglish": "Liechtenstein", "textArabic": "ليختنشتاين", "rank": 6 },
+      { "textGerman": "Marshallinseln", "textEnglish": "Marshall Islands", "textArabic": "جزر مارشال", "rank": 7 },
+      { "textGerman": "St. Kitts und Nevis", "textEnglish": "Saint Kitts and Nevis", "textArabic": "سانت كيتس ونفيس", "rank": 8 },
+      { "textGerman": "Malediven", "textEnglish": "Maldives", "textArabic": "جزر المالديف", "rank": 9 },
+      { "textGerman": "Malta", "textEnglish": "Malta", "textArabic": "مالطا", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne die 10 größten Städte in Deutschland",
+    "textEnglish": "Name the 10 largest cities in Germany",
+    "textArabic": "اذكر أكبر 10 مدن في ألمانيا",
+    "answers": [
+      { "textGerman": "Berlin", "textEnglish": "Berlin", "textArabic": "برلين", "rank": 1 },
+      { "textGerman": "Hamburg", "textEnglish": "Hamburg", "textArabic": "هامبورغ", "rank": 2 },
+      { "textGerman": "München", "textEnglish": "Munich", "textArabic": "ميونيخ", "rank": 3 },
+      { "textGerman": "Köln", "textEnglish": "Cologne", "textArabic": "كولونيا", "rank": 4 },
+      { "textGerman": "Frankfurt am Main", "textEnglish": "Frankfurt", "textArabic": "فرانكفورت", "rank": 5 },
+      { "textGerman": "Stuttgart", "textEnglish": "Stuttgart", "textArabic": "شتوتغارت", "rank": 6 },
+      { "textGerman": "Düsseldorf", "textEnglish": "Dusseldorf", "textArabic": "دوسلدورف", "rank": 7 },
+      { "textGerman": "Leipzig", "textEnglish": "Leipzig", "textArabic": "لايبزيغ", "rank": 8 },
+      { "textGerman": "Dortmund", "textEnglish": "Dortmund", "textArabic": "دورتموند", "rank": 9 },
+      { "textGerman": "Essen", "textEnglish": "Essen", "textArabic": "إيسن", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne die 10 Bundeskanzler von Deutschland (nach Amtsantritt)",
+    "textEnglish": "Name the 10 Chancellors of Germany (by term)",
+    "textArabic": "اذكر 10 مستشارين لألمانيا (حسب ترتيب الحكم)",
+    "answers": [
+      { "textGerman": "Konrad Adenauer", "textEnglish": "Konrad Adenauer", "textArabic": "كونراد أديناور", "rank": 1 },
+      { "textGerman": "Ludwig Erhard", "textEnglish": "Ludwig Erhard", "textArabic": "لودفيغ إيرهارد", "rank": 2 },
+      { "textGerman": "Kurt Georg Kiesinger", "textEnglish": "Kurt Georg Kiesinger", "textArabic": "كورت غيورغ كيزينغر", "rank": 3 },
+      { "textGerman": "Willy Brandt", "textEnglish": "Willy Brandt", "textArabic": "فيلي براندت", "rank": 4 },
+      { "textGerman": "Helmut Schmidt", "textEnglish": "Helmut Schmidt", "textArabic": "هيلموت شميت", "rank": 5 },
+      { "textGerman": "Helmut Kohl", "textEnglish": "Helmut Kohl", "textArabic": "هيلموت كول", "rank": 6 },
+      { "textGerman": "Gerhard Schröder", "textEnglish": "Gerhard Schröder", "textArabic": "جيرهارد شرودر", "rank": 7 },
+      { "textGerman": "Angela Merkel", "textEnglish": "Angela Merkel", "textArabic": "أنجيلا ميركل", "rank": 8 },
+      { "textGerman": "Olaf Scholz", "textEnglish": "Olaf Scholz", "textArabic": "أولاف شولتس", "rank": 9 },
+      { "textGerman": "Theodor Heuss (Präsident)", "textEnglish": "Theodor Heuss", "textArabic": "تيودور هويس", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne die 10 wertvollsten Marken der Welt (2024/25)",
+    "textEnglish": "Name the 10 most valuable brands in the world",
+    "textArabic": "اذكر أغلى 10 علامات تجارية في العالم",
+    "answers": [
+      { "textGerman": "Apple", "textEnglish": "Apple", "textArabic": "أبل", "rank": 1 },
+      { "textGerman": "Microsoft", "textEnglish": "Microsoft", "textArabic": "مايكروسوفت", "rank": 2 },
+      { "textGerman": "Google", "textEnglish": "Google", "textArabic": "غوغل", "rank": 3 },
+      { "textGerman": "Amazon", "textEnglish": "Amazon", "textArabic": "أمازون", "rank": 4 },
+      { "textGerman": "NVIDIA", "textEnglish": "NVIDIA", "textArabic": "إنفيديا", "rank": 5 },
+      { "textGerman": "Samsung", "textEnglish": "Samsung", "textArabic": "سامسونج", "rank": 6 },
+      { "textGerman": "Walmart", "textEnglish": "Walmart", "textArabic": "وول مارت", "rank": 7 },
+      { "textGerman": "Meta", "textEnglish": "Meta", "textArabic": "ميتا", "rank": 8 },
+      { "textGerman": "Tesla", "textEnglish": "Tesla", "textArabic": "تسلا", "rank": 9 },
+      { "textGerman": "ICBC", "textEnglish": "ICBC", "textArabic": "البنك الصناعي والتجاري الصيني", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne die 10 größten Ozeane und Meere der Welt",
+    "textEnglish": "Name the 10 largest oceans and seas",
+    "textArabic": "اذكر أكبر 10 محيطات وبحار في العالم",
+    "answers": [
+      { "textGerman": "Pazifischer Ozean", "textEnglish": "Pacific Ocean", "textArabic": "المحيط الهادئ", "rank": 1 },
+      { "textGerman": "Atlantischer Ozean", "textEnglish": "Atlantic Ocean", "textArabic": "المحيط الأطلسي", "rank": 2 },
+      { "textGerman": "Indischer Ozean", "textEnglish": "Indian Ocean", "textArabic": "المحيط الهندي", "rank": 3 },
+      { "textGerman": "Südlicher Ozean", "textEnglish": "Southern Ocean", "textArabic": "المحيط المتجمد الجنوبي", "rank": 4 },
+      { "textGerman": "Arktischer Ozean", "textEnglish": "Arctic Ocean", "textArabic": "المحيط المتجمد الشمالي", "rank": 5 },
+      { "textGerman": "Philippinensee", "textEnglish": "Philippine Sea", "textArabic": "بحر الفلبين", "rank": 6 },
+      { "textGerman": "Korallenmeer", "textEnglish": "Coral Sea", "textArabic": "بحر المرجان", "rank": 7 },
+      { "textGerman": "Arabisches Meer", "textEnglish": "Arabian Sea", "textArabic": "بحر العرب", "rank": 8 },
+      { "textGerman": "Südchinesisches Meer", "textEnglish": "South China Sea", "textArabic": "بحر الصين الجنوبي", "rank": 9 },
+      { "textGerman": "Karibisches Meer", "textEnglish": "Caribbean Sea", "textArabic": "البحر الكاريبي", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne die 10 häufigsten Vornamen in Deutschland (historisch)",
+    "textEnglish": "Name the 10 most common first names in Germany",
+    "textArabic": "اذكر أشهر 10 أسماء في ألمانيا",
+    "answers": [
+      { "textGerman": "Thomas", "textEnglish": "Thomas", "textArabic": "توماس", "rank": 1 },
+      { "textGerman": "Michael", "textEnglish": "Michael", "textArabic": "مايكل", "rank": 2 },
+      { "textGerman": "Andreas", "textEnglish": "Andreas", "textArabic": "أندرياس", "rank": 3 },
+      { "textGerman": "Christian", "textEnglish": "Christian", "textArabic": "كريستيان", "rank": 4 },
+      { "textGerman": "Stefan", "textEnglish": "Stefan", "textArabic": "ستيفان", "rank": 5 },
+      { "textGerman": "Maria", "textEnglish": "Maria", "textArabic": "ماريا", "rank": 6 },
+      { "textGerman": "Sabine", "textEnglish": "Sabine", "textArabic": "سابينة", "rank": 7 },
+      { "textGerman": "Ursula", "textEnglish": "Ursula", "textArabic": "أورسولا", "rank": 8 },
+      { "textGerman": "Monika", "textEnglish": "Monika", "textArabic": "مونيكا", "rank": 9 },
+      { "textGerman": "Petra", "textEnglish": "Petra", "textArabic": "بيترا", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne die 10 Symbole der Sternzeichen",
+    "textEnglish": "Name 10 zodiac signs",
+    "textArabic": "اذكر 10 من الأبراج الفلكية",
+    "answers": [
+      { "textGerman": "Widder", "textEnglish": "Aries", "textArabic": "الحمل", "rank": 1 },
+      { "textGerman": "Stier", "textEnglish": "Taurus", "textArabic": "الثور", "rank": 2 },
+      { "textGerman": "Zwillinge", "textEnglish": "Gemini", "textArabic": "الجوزاء", "rank": 3 },
+      { "textGerman": "Krebs", "textEnglish": "Cancer", "textArabic": "السرطان", "rank": 4 },
+      { "textGerman": "Löwe", "textEnglish": "Leo", "textArabic": "الأسد", "rank": 5 },
+      { "textGerman": "Jungfrau", "textEnglish": "Virgo", "textArabic": "العذراء", "rank": 6 },
+      { "textGerman": "Waage", "textEnglish": "Libra", "textArabic": "الميزان", "rank": 7 },
+      { "textGerman": "Skorpion", "textEnglish": "Scorpio", "textArabic": "العقرب", "rank": 8 },
+      { "textGerman": "Schütze", "textEnglish": "Sagittarius", "textArabic": "القوس", "rank": 9 },
+      { "textGerman": "Steinbock", "textEnglish": "Capricorn", "textArabic": "الجدي", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne die 10 größten Hunderassen der Welt",
+    "textEnglish": "Name the 10 largest dog breeds",
+    "textArabic": "اذكر أكبر 10 سلالات كلاب في العالم",
+    "answers": [
+      { "textGerman": "Deutsche Dogge", "textEnglish": "Great Dane", "textArabic": "الكلب الدانماركي الضخم", "rank": 1 },
+      { "textGerman": "Irischer Wolfshund", "textEnglish": "Irish Wolfhound", "textArabic": "صائد الذئاب الأيرلندي", "rank": 2 },
+      { "textGerman": "Mastiff", "textEnglish": "Mastiff", "textArabic": "ماستيف", "rank": 3 },
+      { "textGerman": "Bernhardiner", "textEnglish": "Saint Bernard", "textArabic": "سانت برنارد", "rank": 4 },
+      { "textGerman": "Neufundländer", "textEnglish": "Newfoundland", "textArabic": "نيوفاوندلاند", "rank": 5 },
+      { "textGerman": "Leonberger", "textEnglish": "Leonberger", "textArabic": "ليون بيرجر", "rank": 6 },
+      { "textGerman": "Anatolischer Hirtenhund", "textEnglish": "Anatolian Shepherd", "textArabic": "كلب الرعي الأناضولي", "rank": 7 },
+      { "textGerman": "Rottweiler", "textEnglish": "Rottweiler", "textArabic": "روت وايلر", "rank": 8 },
+      { "textGerman": "Dobermann", "textEnglish": "Doberman", "textArabic": "دوبرمان", "rank": 9 },
+      { "textGerman": "Berner Sennenhund", "textEnglish": "Bernese Mountain Dog", "textArabic": "كلب جبل بيرنيز", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne die 10 meistverkauften Videospiele",
+    "textEnglish": "Name the 10 best-selling video games",
+    "textArabic": "اذكر أكثر 10 ألعاب فيديو مبيعاً",
+    "answers": [
+      { "textGerman": "Minecraft", "textEnglish": "Minecraft", "textArabic": "ماينكرافت", "rank": 1 },
+      { "textGerman": "Grand Theft Auto V", "textEnglish": "GTA V", "textArabic": "جي تي أيه 5", "rank": 2 },
+      { "textGerman": "Tetris", "textEnglish": "Tetris", "textArabic": "تتريس", "rank": 3 },
+      { "textGerman": "Wii Sports", "textEnglish": "Wii Sports", "textArabic": "وي سبورتس", "rank": 4 },
+      { "textGerman": "PUBG", "textEnglish": "PUBG", "textArabic": "ببجي", "rank": 5 },
+      { "textGerman": "Mario Kart 8", "textEnglish": "Mario Kart 8", "textArabic": "ماريو كارت 8", "rank": 6 },
+      { "textGerman": "Super Mario Bros.", "textEnglish": "Super Mario Bros.", "textArabic": "سوبر ماريو بروس", "rank": 7 },
+      { "textGerman": "Red Dead Redemption 2", "textEnglish": "Red Dead Redemption 2", "textArabic": "ريد ديد ريدمبشن 2", "rank": 8 },
+      { "textGerman": "Overwatch", "textEnglish": "Overwatch", "textArabic": "أوفر واتش", "rank": 9 },
+      { "textGerman": "Pokémon Rote/Blaue Edition", "textEnglish": "Pokemon Red/Blue", "textArabic": "بوكيمون ريد/بلو", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne die 10 Hauptstädte von südamerikanischen Ländern",
+    "textEnglish": "Name 10 South American capitals",
+    "textArabic": "اذكر 10 عواصم لدول في أمريكا الجنوبية",
+    "answers": [
+      { "textGerman": "Brasília", "textEnglish": "Brasilia", "textArabic": "برازيليا", "rank": 1 },
+      { "textGerman": "Buenos Aires", "textEnglish": "Buenos Aires", "textArabic": "بوينس آيرس", "rank": 2 },
+      { "textGerman": "Santiago", "textEnglish": "Santiago", "textArabic": "سانتياغو", "rank": 3 },
+      { "textGerman": "Lima", "textEnglish": "Lima", "textArabic": "ليما", "rank": 4 },
+      { "textGerman": "Bogotá", "textEnglish": "Bogota", "textArabic": "بوغوتا", "rank": 5 },
+      { "textGerman": "Quito", "textEnglish": "Quito", "textArabic": "كيتو", "rank": 6 },
+      { "textGerman": "Caracas", "textEnglish": "Caracas", "textArabic": "كراكاس", "rank": 7 },
+      { "textGerman": "Montevideo", "textEnglish": "Montevideo", "textArabic": "مونتيفيديو", "rank": 8 },
+      { "textGerman": "Asunción", "textEnglish": "Asuncion", "textArabic": "أسونسيون", "rank": 9 },
+      { "textGerman": "La Paz", "textEnglish": "La Paz", "textArabic": "لاباز", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne die 10 erfolgreichsten Formel-1-Fahrer (nach WM-Titeln)",
+    "textEnglish": "Name the 10 most successful F1 drivers",
+    "textArabic": "اذكر أكثر 10 سائقي فورمولا 1 فوزاً بالبطولة",
+    "answers": [
+      { "textGerman": "Michael Schumacher", "textEnglish": "Michael Schumacher", "textArabic": "مايكل شوماخر", "rank": 1 },
+      { "textGerman": "Lewis Hamilton", "textEnglish": "Lewis Hamilton", "textArabic": "لويس هاميلتون", "rank": 2 },
+      { "textGerman": "Juan Manuel Fangio", "textEnglish": "Juan Manuel Fangio", "textArabic": "خوان مانويل فانجيو", "rank": 3 },
+      { "textGerman": "Alain Prost", "textEnglish": "Alain Prost", "textArabic": "ألان بروست", "rank": 4 },
+      { "textGerman": "Sebastian Vettel", "textEnglish": "Sebastian Vettel", "textArabic": "سباستيان فيتيل", "rank": 5 },
+      { "textGerman": "Max Verstappen", "textEnglish": "Max Verstappen", "textArabic": "ماكس فيرستابين", "rank": 6 },
+      { "textGerman": "Ayrton Senna", "textEnglish": "Ayrton Senna", "textArabic": "آيرتون سينا", "rank": 7 },
+      { "textGerman": "Niki Lauda", "textEnglish": "Niki Lauda", "textArabic": "نيكي لاودا", "rank": 8 },
+      { "textGerman": "Nelson Piquet", "textEnglish": "Nelson Piquet", "textArabic": "نيلسون بيكيه", "rank": 9 },
+      { "textGerman": "Jackie Stewart", "textEnglish": "Jackie Stewart", "textArabic": "جاكي ستيوارت", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne die 10 reichsten Menschen der Welt (Forbes 2025)",
+    "textEnglish": "Name the 10 richest people in the world",
+    "textArabic": "اذكر أغنى 10 أشخاص في العالم",
+    "answers": [
+      { "textGerman": "Elon Musk", "textEnglish": "Elon Musk", "textArabic": "إيلون ماسك", "rank": 1 },
+      { "textGerman": "Jeff Bezos", "textEnglish": "Jeff Bezos", "textArabic": "جيف بيزوس", "rank": 2 },
+      { "textGerman": "Bernard Arnault", "textEnglish": "Bernard Arnault", "textArabic": "برنارد أرنو", "rank": 3 },
+      { "textGerman": "Mark Zuckerberg", "textEnglish": "Mark Zuckerberg", "textArabic": "مارك زوكربيرج", "rank": 4 },
+      { "textGerman": "Larry Ellison", "textEnglish": "Larry Ellison", "textArabic": "لاري إليسون", "rank": 5 },
+      { "textGerman": "Warren Buffett", "textEnglish": "Warren Buffett", "textArabic": "وارن بافيت", "rank": 6 },
+      { "textGerman": "Bill Gates", "textEnglish": "Bill Gates", "textArabic": "بيل غيتس", "rank": 7 },
+      { "textGerman": "Larry Page", "textEnglish": "Larry Page", "textArabic": "لاري بيج", "rank": 8 },
+      { "textGerman": "Sergey Brin", "textEnglish": "Sergey Brin", "textArabic": "سيرجي برين", "rank": 9 },
+      { "textGerman": "Steve Ballmer", "textEnglish": "Steve Ballmer", "textArabic": "ستيف بالمر", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne die 10 meistverkauften Automarken",
+    "textEnglish": "Name the 10 best-selling car brands",
+    "textArabic": "اذكر أكثر 10 ماركات سيارات مبيعاً",
+    "answers": [
+      { "textGerman": "Toyota", "textEnglish": "Toyota", "textArabic": "تويوتا", "rank": 1 },
+      { "textGerman": "Volkswagen", "textEnglish": "Volkswagen", "textArabic": "فولكسفاغن", "rank": 2 },
+      { "textGerman": "Ford", "textEnglish": "Ford", "textArabic": "فورد", "rank": 3 },
+      { "textGerman": "Honda", "textEnglish": "Honda", "textArabic": "هوندا", "rank": 4 },
+      { "textGerman": "Nissan", "textEnglish": "Nissan", "textArabic": "نيسان", "rank": 5 },
+      { "textGerman": "Hyundai", "textEnglish": "Hyundai", "textArabic": "هيونداي", "rank": 6 },
+      { "textGerman": "Chevrolet", "textEnglish": "Chevrolet", "textArabic": "شيفروليه", "rank": 7 },
+      { "textGerman": "Kia", "textEnglish": "Kia", "textArabic": "كيا", "rank": 8 },
+      { "textGerman": "Mercedes-Benz", "textEnglish": "Mercedes", "textArabic": "مرسيدس", "rank": 9 },
+      { "textGerman": "BMW", "textEnglish": "BMW", "textArabic": "بي إم دبليو", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne die 10 Länder mit den meisten Goldreserven",
+    "textEnglish": "Name the 10 countries with the most gold reserves",
+    "textArabic": "اذكر أكثر 10 دول امتلاكاً لاحتياطي الذهب",
+    "answers": [
+      { "textGerman": "USA", "textEnglish": "USA", "textArabic": "الولايات المتحدة", "rank": 1 },
+      { "textGerman": "Deutschland", "textEnglish": "Germany", "textArabic": "ألمانيا", "rank": 2 },
+      { "textGerman": "Italien", "textEnglish": "Italy", "textArabic": "إيطاليا", "rank": 3 },
+      { "textGerman": "Frankreich", "textEnglish": "France", "textArabic": "فرنسا", "rank": 4 },
+      { "textGerman": "Russland", "textEnglish": "Russia", "textArabic": "روسيا", "rank": 5 },
+      { "textGerman": "China", "textEnglish": "China", "textArabic": "الصين", "rank": 6 },
+      { "textGerman": "Schweiz", "textEnglish": "Switzerland", "textArabic": "سويسرا", "rank": 7 },
+      { "textGerman": "Japan", "textEnglish": "Japan", "textArabic": "اليابان", "rank": 8 },
+      { "textGerman": "Indien", "textEnglish": "India", "textArabic": "الهند", "rank": 9 },
+      { "textGerman": "Niederlande", "textEnglish": "Netherlands", "textArabic": "هولندا", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne die 10 größten Inseln im Mittelmeer",
+    "textEnglish": "Name the 10 largest Mediterranean islands",
+    "textArabic": "اذكر أكبر 10 جزر في البحر المتوسط",
+    "answers": [
+      { "textGerman": "Sizilien", "textEnglish": "Sicily", "textArabic": "صقلية", "rank": 1 },
+      { "textGerman": "Sardinien", "textEnglish": "Sardinia", "textArabic": "سردينيا", "rank": 2 },
+      { "textGerman": "Zypern", "textEnglish": "Cyprus", "textArabic": "قبرص", "rank": 3 },
+      { "textGerman": "Korsika", "textEnglish": "Corsica", "textArabic": "كورسيكا", "rank": 4 },
+      { "textGerman": "Kreta", "textEnglish": "Crete", "textArabic": "كريت", "rank": 5 },
+      { "textGerman": "Euböa", "textEnglish": "Euboea", "textArabic": "وابية", "rank": 6 },
+      { "textGerman": "Mallorca", "textEnglish": "Mallorca", "textArabic": "مايوركا", "rank": 7 },
+      { "textGerman": "Lesbos", "textEnglish": "Lesbos", "textArabic": "ليسبوس", "rank": 8 },
+      { "textGerman": "Rhodos", "textEnglish": "Rhodes", "textArabic": "رودس", "rank": 9 },
+      { "textGerman": "Chios", "textEnglish": "Chios", "textArabic": "خيوس", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne die 10 meistverkauften Smartphones (Modelle)",
+    "textEnglish": "Name the 10 best-selling smartphones",
+    "textArabic": "اذكر أكثر 10 هواتف ذكية مبيعاً",
+    "answers": [
+      { "textGerman": "iPhone 15", "textEnglish": "iPhone 15", "textArabic": "آيفون 15", "rank": 1 },
+      { "textGerman": "iPhone 14", "textEnglish": "iPhone 14", "textArabic": "آيفون 14", "rank": 2 },
+      { "textGerman": "iPhone 13", "textEnglish": "iPhone 13", "textArabic": "آيفون 13", "rank": 3 },
+      { "textGerman": "Samsung Galaxy S24", "textEnglish": "Samsung S24", "textArabic": "سامسونج S24", "rank": 4 },
+      { "textGerman": "Samsung Galaxy A54", "textEnglish": "Samsung A54", "textArabic": "سامسونج A54", "rank": 5 },
+      { "textGerman": "iPhone 11", "textEnglish": "iPhone 11", "textArabic": "آيفون 11", "rank": 6 },
+      { "textGerman": "Samsung Galaxy A14", "textEnglish": "Samsung A14", "textArabic": "سامسونج A14", "rank": 7 },
+      { "textGerman": "iPhone SE", "textEnglish": "iPhone SE", "textArabic": "آيفون SE", "rank": 8 },
+      { "textGerman": "Xiaomi Redmi Note 13", "textEnglish": "Redmi Note 13", "textArabic": "ريدمي نوت 13", "rank": 9 },
+      { "textGerman": "Samsung Galaxy S23", "textEnglish": "Samsung S23", "textArabic": "سامسونج S23", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne 10 berühmte Komponisten klassischer Musik",
+    "textEnglish": "Name 10 famous classical composers",
+    "textArabic": "اذكر 10 من أشهر ملحني الموسيقى الكلاسيكية",
+    "answers": [
+      { "textGerman": "Ludwig van Beethoven", "textEnglish": "Beethoven", "textArabic": "بيتهوفن", "rank": 1 },
+      { "textGerman": "Wolfgang Amadeus Mozart", "textEnglish": "Mozart", "textArabic": "موزارت", "rank": 2 },
+      { "textGerman": "Johann Sebastian Bach", "textEnglish": "Bach", "textArabic": "باخ", "rank": 3 },
+      { "textGerman": "Frédéric Chopin", "textEnglish": "Chopin", "textArabic": "شوبان", "rank": 4 },
+      { "textGerman": "Pyotr Ilyich Tchaikovsky", "textEnglish": "Tchaikovsky", "textArabic": "تشايكوفسكي", "rank": 5 },
+      { "textGerman": "Antonio Vivaldi", "textEnglish": "Vivaldi", "textArabic": "فيفالدي", "rank": 6 },
+      { "textGerman": "Franz Schubert", "textEnglish": "Schubert", "textArabic": "شوبرت", "rank": 7 },
+      { "textGerman": "Richard Wagner", "textEnglish": "Wagner", "textArabic": "فاغنر", "rank": 8 },
+      { "textGerman": "Johannes Brahms", "textEnglish": "Brahms", "textArabic": "برامز", "rank": 9 },
+      { "textGerman": "Giuseppe Verdi", "textEnglish": "Verdi", "textArabic": "فيردي", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne die 10 größten Seen der Welt",
+    "textEnglish": "Name the 10 largest lakes",
+    "textArabic": "اذكر أكبر 10 بحيرات في العالم",
+    "answers": [
+      { "textGerman": "Kaspisches Meer", "textEnglish": "Caspian Sea", "textArabic": "بحر قزوين", "rank": 1 },
+      { "textGerman": "Oberer See", "textEnglish": "Lake Superior", "textArabic": "بحيرة سوبيريور", "rank": 2 },
+      { "textGerman": "Viktoriasee", "textEnglish": "Lake Victoria", "textArabic": "بحيرة فيكتوريا", "rank": 3 },
+      { "textGerman": "Huronsee", "textEnglish": "Lake Huron", "textArabic": "بحيرة هورون", "rank": 4 },
+      { "textGerman": "Michigansee", "textEnglish": "Lake Michigan", "textArabic": "بحيرة ميشيغان", "rank": 5 },
+      { "textGerman": "Tanganjikasee", "textEnglish": "Lake Tanganyika", "textArabic": "بحيرة تنجانيقا", "rank": 6 },
+      { "textGerman": "Baikalsee", "textEnglish": "Lake Baikal", "textArabic": "بحيرة بايكال", "rank": 7 },
+      { "textGerman": "Großer Bärensee", "textEnglish": "Great Bear Lake", "textArabic": "بحيرة الدب الكبير", "rank": 8 },
+      { "textGerman": "Malawisee", "textEnglish": "Lake Malawi", "textArabic": "بحيرة ملاوي", "rank": 9 },
+      { "textGerman": "Großer Sklavensee", "textEnglish": "Great Slave Lake", "textArabic": "بحيرة الرقيق الكبرى", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne 10 Länder in Afrika",
+    "textEnglish": "Name 10 countries in Africa",
+    "textArabic": "اذكر 10 دول في أفريقيا",
+    "answers": [
+      { "textGerman": "Ägypten", "textEnglish": "Egypt", "textArabic": "مصر", "rank": 1 },
+      { "textGerman": "Nigeria", "textEnglish": "Nigeria", "textArabic": "نيجيريا", "rank": 2 },
+      { "textGerman": "Südafrika", "textEnglish": "South Africa", "textArabic": "جنوب أفريقيا", "rank": 3 },
+      { "textGerman": "Algerien", "textEnglish": "Algeria", "textArabic": "الجزائر", "rank": 4 },
+      { "textGerman": "Marokko", "textEnglish": "Morocco", "textArabic": "المغرب", "rank": 5 },
+      { "textGerman": "Äthiopien", "textEnglish": "Ethiopia", "textArabic": "إثيوبيا", "rank": 6 },
+      { "textGerman": "Kenia", "textEnglish": "Kenya", "textArabic": "كينيا", "rank": 7 },
+      { "textGerman": "Ghana", "textEnglish": "Ghana", "textArabic": "غانا", "rank": 8 },
+      { "textGerman": "Tansania", "textEnglish": "Tanzania", "textArabic": "تنزانيا", "rank": 9 },
+      { "textGerman": "Sudan", "textEnglish": "Sudan", "textArabic": "السودان", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne 10 Sportarten bei den Olympischen Sommerspielen",
+    "textEnglish": "Name 10 Summer Olympic sports",
+    "textArabic": "اذكر 10 رياضات في الألعاب الأولمبية الصيفية",
+    "answers": [
+      { "textGerman": "Leichtathletik", "textEnglish": "Athletics", "textArabic": "ألعاب القوى", "rank": 1 },
+      { "textGerman": "Schwimmen", "textEnglish": "Swimming", "textArabic": "السباحة", "rank": 2 },
+      { "textGerman": "Turnen", "textEnglish": "Gymnastics", "textArabic": "الجمباز", "rank": 3 },
+      { "textGerman": "Radfahren", "textEnglish": "Cycling", "textArabic": "ركوب الدراجات", "rank": 4 },
+      { "textGerman": "Basketball", "textEnglish": "Basketball", "textArabic": "كرة السلة", "rank": 5 },
+      { "textGerman": "Fußball", "textEnglish": "Football", "textArabic": "كرة القدم", "rank": 6 },
+      { "textGerman": "Tennis", "textEnglish": "Tennis", "textArabic": "التنس", "rank": 7 },
+      { "textGerman": "Boxen", "textEnglish": "Boxing", "textArabic": "الملاكمة", "rank": 8 },
+      { "textGerman": "Judo", "textEnglish": "Judo", "textArabic": "الجودو", "rank": 9 },
+      { "textGerman": "Volleyball", "textEnglish": "Volleyball", "textArabic": "كرة الطائرة", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne 10 Nobelpreisträger (beliebig)",
+    "textEnglish": "Name 10 Nobel Prize winners",
+    "textArabic": "اذكر 10 من الحاصلين على جائزة نوبل",
+    "answers": [
+      { "textGerman": "Albert Einstein", "textEnglish": "Albert Einstein", "textArabic": "ألبرت أينشتاين", "rank": 1 },
+      { "textGerman": "Marie Curie", "textEnglish": "Marie Curie", "textArabic": "ماري كوري", "rank": 2 },
+      { "textGerman": "Nelson Mandela", "textEnglish": "Nelson Mandela", "textArabic": "نيلسون مانديلا", "rank": 3 },
+      { "textGerman": "Martin Luther King Jr.", "textEnglish": "MLK Jr.", "textArabic": "مارتن لوثر كينغ", "rank": 4 },
+      { "textGerman": "Mother Teresa", "textEnglish": "Mother Teresa", "textArabic": "الأم تيريزا", "rank": 5 },
+      { "textGerman": "Barack Obama", "textEnglish": "Barack Obama", "textArabic": "باراك أوباما", "rank": 6 },
+      { "textGerman": "Ernest Hemingway", "textEnglish": "Ernest Hemingway", "textArabic": "إرنست همنغواي", "rank": 7 },
+      { "textGerman": "Max Planck", "textEnglish": "Max Planck", "textArabic": "ماكس بلانك", "rank": 8 },
+      { "textGerman": "Malala Yousafzai", "textEnglish": "Malala", "textArabic": "ملالا يوسفزي", "rank": 9 },
+      { "textGerman": "Winston Churchill", "textEnglish": "Winston Churchill", "textArabic": "وينستون تشرشل", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne die 10 wertvollsten Edelsteine/Materialien",
+    "textEnglish": "Name 10 most valuable gemstones/materials",
+    "textArabic": "اذكر أغلى 10 أحجار كريمة أو مواد",
+    "answers": [
+      { "textGerman": "Diamant", "textEnglish": "Diamond", "textArabic": "الألماس", "rank": 1 },
+      { "textGerman": "Rubin", "textEnglish": "Ruby", "textArabic": "الياقوت الأحمر", "rank": 2 },
+      { "textGerman": "Smaragd", "textEnglish": "Emerald", "textArabic": "الزمرد", "rank": 3 },
+      { "textGerman": "Saphir", "textEnglish": "Sapphire", "textArabic": "الياقوت الأزرق", "rank": 4 },
+      { "textGerman": "Tansanit", "textEnglish": "Tanzanite", "textArabic": "تنزانيت", "rank": 5 },
+      { "textGerman": "Opal", "textEnglish": "Opal", "textArabic": "أوبال", "rank": 6 },
+      { "textGerman": "Jadeit", "textEnglish": "Jadeite", "textArabic": "جاديت", "rank": 7 },
+      { "textGerman": "Alexandrit", "textEnglish": "Alexandrite", "textArabic": "ألكسندريت", "rank": 8 },
+      { "textGerman": "Musgravit", "textEnglish": "Musgravite", "textArabic": "موسغرافيت", "rank": 9 },
+      { "textGerman": "Roter Beryll", "textEnglish": "Red Beryl", "textArabic": "الزمرد الأحمر", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne 10 Hauptstädte in Asien",
+    "textEnglish": "Name 10 Asian capitals",
+    "textArabic": "اذكر 10 عواصم في آسيا",
+    "answers": [
+      { "textGerman": "Tokio", "textEnglish": "Tokyo", "textArabic": "طوكيو", "rank": 1 },
+      { "textGerman": "Peking", "textEnglish": "Beijing", "textArabic": "بكين", "rank": 2 },
+      { "textGerman": "Seoul", "textEnglish": "Seoul", "textArabic": "سول", "rank": 3 },
+      { "textGerman": "Bangkok", "textEnglish": "Bangkok", "textArabic": "بانكوك", "rank": 4 },
+      { "textGerman": "Neu-Delhi", "textEnglish": "New Delhi", "textArabic": "نيودلهي", "rank": 5 },
+      { "textGerman": "Riad", "textEnglish": "Riyadh", "textArabic": "الرياض", "rank": 6 },
+      { "textGerman": "Jakarta", "textEnglish": "Jakarta", "textArabic": "جاكرتا", "rank": 7 },
+      { "textGerman": "Hanoi", "textEnglish": "Hanoi", "textArabic": "هانوي", "rank": 8 },
+      { "textGerman": "Manila", "textEnglish": "Manila", "textArabic": "مانيلا", "rank": 9 },
+      { "textGerman": "Teheran", "textEnglish": "Tehran", "textArabic": "طهران", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne 10 berühmte Erfindungen",
+    "textEnglish": "Name 10 famous inventions",
+    "textArabic": "اذكر 10 اختراعات مشهورة",
+    "answers": [
+      { "textGerman": "Rad", "textEnglish": "Wheel", "textArabic": "العجلة", "rank": 1 },
+      { "textGerman": "Buchdruck", "textEnglish": "Printing Press", "textArabic": "المطبعة", "rank": 2 },
+      { "textGerman": "Glühbirne", "textEnglish": "Light Bulb", "textArabic": "المصباح الكهربائي", "rank": 3 },
+      { "textGerman": "Telefon", "textEnglish": "Telephone", "textArabic": "الهاتف", "rank": 4 },
+      { "textGerman": "Internet", "textEnglish": "Internet", "textArabic": "الإنترنت", "rank": 5 },
+      { "textGerman": "Automobil", "textEnglish": "Car", "textArabic": "السيارة", "rank": 6 },
+      { "textGerman": "Flugzeug", "textEnglish": "Airplane", "textArabic": "الطائرة", "rank": 7 },
+      { "textGerman": "Penicillin", "textEnglish": "Penicillin", "textArabic": "البنسلين", "rank": 8 },
+      { "textGerman": "Computer", "textEnglish": "Computer", "textArabic": "الكمبيوتر", "rank": 9 },
+      { "textGerman": "Dampfmaschine", "textEnglish": "Steam Engine", "textArabic": "المحرك البخاري", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne 10 Sprachen mit den meisten Muttersprachlern",
+    "textEnglish": "Name 10 languages with most native speakers",
+    "textArabic": "اذكر أكثر 10 لغات من حيث عدد المتحدثين الأصليين",
+    "answers": [
+      { "textGerman": "Mandarin-Chinesisch", "textEnglish": "Mandarin", "textArabic": "الصينية الماندرين", "rank": 1 },
+      { "textGerman": "Spanisch", "textEnglish": "Spanish", "textArabic": "الإسبانية", "rank": 2 },
+      { "textGerman": "Englisch", "textEnglish": "English", "textArabic": "الإنجليزية", "rank": 3 },
+      { "textGerman": "Hindi", "textEnglish": "Hindi", "textArabic": "الهندية", "rank": 4 },
+      { "textGerman": "Bengalisch", "textEnglish": "Bengali", "textArabic": "البنغالية", "rank": 5 },
+      { "textGerman": "Portugiesisch", "textEnglish": "Portuguese", "textArabic": "البرتغالية", "rank": 6 },
+      { "textGerman": "Russisch", "textEnglish": "Russian", "textArabic": "الروسية", "rank": 7 },
+      { "textGerman": "Japanisch", "textEnglish": "Japanese", "textArabic": "اليابانية", "rank": 8 },
+      { "textGerman": "West-Punjabi", "textEnglish": "Punjabi", "textArabic": "البنجابية", "rank": 9 },
+      { "textGerman": "Marathi", "textEnglish": "Marathi", "textArabic": "الماراشية", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne 10 Tierarten, die vom Aussterben bedroht sind",
+    "textEnglish": "Name 10 endangered animal species",
+    "textArabic": "اذكر 10 أنواع حيوانات مهددة بالانقراض",
+    "answers": [
+      { "textGerman": "Javanashorn", "textEnglish": "Javan Rhino", "textArabic": "وحيد قرن جاوة", "rank": 1 },
+      { "textGerman": "Berggorilla", "textEnglish": "Mountain Gorilla", "textArabic": "غوريلا الجبال", "rank": 2 },
+      { "textGerman": "Amur-Leopard", "textEnglish": "Amur Leopard", "textArabic": "نمر آمور", "rank": 3 },
+      { "textGerman": "Vaquita (Schweinswal)", "textEnglish": "Vaquita", "textArabic": "فكيتا", "rank": 4 },
+      { "textGerman": "Sumatra-Elefant", "textEnglish": "Sumatran Elephant", "textArabic": "فيل سومطرة", "rank": 5 },
+      { "textGerman": "Saola", "textEnglish": "Saola", "textArabic": "ساولا", "rank": 6 },
+      { "textGerman": "Südlicher China-Tiger", "textEnglish": "South China Tiger", "textArabic": "نمر جنوب الصين", "rank": 7 },
+      { "textGerman": "Schuppentier", "textEnglish": "Pangolin", "textArabic": "آكل النمل الحرشفي", "rank": 8 },
+      { "textGerman": "Meeresschildkröte", "textEnglish": "Sea Turtle", "textArabic": "السلحفاة البحرية", "rank": 9 },
+      { "textGerman": "Orang-Utan", "textEnglish": "Orangutan", "textArabic": "أورانج أوتان", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne 10 berühmte Bauwerke der Welt",
+    "textEnglish": "Name 10 famous landmarks",
+    "textArabic": "اذكر 10 معالم شهيرة في العالم",
+    "answers": [
+      { "textGerman": "Eiffelturm", "textEnglish": "Eiffel Tower", "textArabic": "برج إيفل", "rank": 1 },
+      { "textGerman": "Chinesische Mauer", "textEnglish": "Great Wall of China", "textArabic": "سور الصين العظيم", "rank": 2 },
+      { "textGerman": "Freiheitsstatue", "textEnglish": "Statue of Liberty", "textArabic": "تمثال الحرية", "rank": 3 },
+      { "textGerman": "Taj Mahal", "textEnglish": "Taj Mahal", "textArabic": "تاج محل", "rank": 4 },
+      { "textGerman": "Pyramiden von Gizeh", "textEnglish": "Pyramids of Giza", "textArabic": "أهرامات الجيزة", "rank": 5 },
+      { "textGerman": "Kolosseum", "textEnglish": "Colosseum", "textArabic": "الكولوسيوم", "rank": 6 },
+      { "textGerman": "Machu Picchu", "textEnglish": "Machu Picchu", "textArabic": "ماتشو بيتشو", "rank": 7 },
+      { "textGerman": "Big Ben", "textEnglish": "Big Ben", "textArabic": "بيغ بن", "rank": 8 },
+      { "textGerman": "Oper von Sydney", "textEnglish": "Sydney Opera House", "textArabic": "دار أوبرا سيدني", "rank": 9 },
+      { "textGerman": "Burj Khalifa", "textEnglish": "Burj Khalifa", "textArabic": "برج خليفة", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne 10 Bundesländer von Österreich",
+    "textEnglish": "Name 9 federal states of Austria (plus 1)",
+    "textArabic": "اذكر ولايات النمسا",
+    "answers": [
+      { "textGerman": "Wien", "textEnglish": "Vienna", "textArabic": "فيينا", "rank": 1 },
+      { "textGerman": "Niederösterreich", "textEnglish": "Lower Austria", "textArabic": "نمسا السفلى", "rank": 2 },
+      { "textGerman": "Oberösterreich", "textEnglish": "Upper Austria", "textArabic": "نمسا العليا", "rank": 3 },
+      { "textGerman": "Steiermark", "textEnglish": "Styria", "textArabic": "شتيريا", "rank": 4 },
+      { "textGerman": "Tirol", "textEnglish": "Tyrol", "textArabic": "تيرول", "rank": 5 },
+      { "textGerman": "Kärnten", "textEnglish": "Carinthia", "textArabic": "كارينثيا", "rank": 6 },
+      { "textGerman": "Salzburg", "textEnglish": "Salzburg", "textArabic": "سالزبورغ", "rank": 7 },
+      { "textGerman": "Vorarlberg", "textEnglish": "Vorarlberg", "textArabic": "فورارلبرغ", "rank": 8 },
+      { "textGerman": "Burgenland", "textEnglish": "Burgenland", "textArabic": "بورغنلاند", "rank": 9 },
+      { "textGerman": "Graz (Stadt)", "textEnglish": "Graz", "textArabic": "غراتس", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne 10 Vitamine",
+    "textEnglish": "Name 10 vitamins",
+    "textArabic": "اذكر 10 فيتامينات",
+    "answers": [
+      { "textGerman": "Vitamin A", "textEnglish": "Vitamin A", "textArabic": "فيتامين أ", "rank": 1 },
+      { "textGerman": "Vitamin B12", "textEnglish": "Vitamin B12", "textArabic": "فيتامين ب12", "rank": 2 },
+      { "textGerman": "Vitamin C", "textEnglish": "Vitamin C", "textArabic": "فيتامين ج", "rank": 3 },
+      { "textGerman": "Vitamin D", "textEnglish": "Vitamin D", "textArabic": "فيتامين د", "rank": 4 },
+      { "textGerman": "Vitamin E", "textEnglish": "Vitamin E", "textArabic": "فيتامين هـ", "rank": 5 },
+      { "textGerman": "Vitamin K", "textEnglish": "Vitamin K", "textArabic": "فيتامين ك", "rank": 6 },
+      { "textGerman": "Biotin", "textEnglish": "Biotin", "textArabic": "بيوتين", "rank": 7 },
+      { "textGerman": "Folsäure", "textEnglish": "Folic Acid", "textArabic": "حمض الفوليك", "rank": 8 },
+      { "textGerman": "Niacin", "textEnglish": "Niacin", "textArabic": "نياسين", "rank": 9 },
+      { "textGerman": "Riboflavin", "textEnglish": "Riboflavin", "textArabic": "ريبوفلافين", "rank": 10 }
+    ]
+  },
+  {
+    "textGerman": "Nenne 10 Disney-Filme",
+    "textEnglish": "Name 10 Disney movies",
+    "textArabic": "اذكر 10 أفلام ديزني",
+    "answers": [
+      { "textGerman": "Der König der Löwen", "textEnglish": "The Lion King", "textArabic": "الأسد الملك", "rank": 1 },
+      { "textGerman": "Die Eiskönigin", "textEnglish": "Frozen", "textArabic": "فروزن", "rank": 2 },
+      { "textGerman": "Aladdin", "textEnglish": "Aladdin", "textArabic": "علاء الدين", "rank": 3 },
+      { "textGerman": "Arielle", "textEnglish": "The Little Mermaid", "textArabic": "حورية البحر", "rank": 4 },
+      { "textGerman": "Mulan", "textEnglish": "Mulan", "textArabic": "مولان", "rank": 5 },
+      { "textGerman": "Findet Nemo", "textEnglish": "Finding Nemo", "textArabic": "البحث عن نيمو", "rank": 6 },
+      { "textGerman": "Toy Story", "textEnglish": "Toy Story", "textArabic": "حكاية لعبة", "rank": 7 },
+      { "textGerman": "Bambi", "textEnglish": "Bambi", "textArabic": "بامبي", "rank": 8 },
+      { "textGerman": "Cinderella", "textEnglish": "Cinderella", "textArabic": "سندريلا", "rank": 9 },
+      { "textGerman": "Pinocchio", "textEnglish": "Pinocchio", "textArabic": "بينوكيو", "rank": 10 }
+    ]
+  }
+]

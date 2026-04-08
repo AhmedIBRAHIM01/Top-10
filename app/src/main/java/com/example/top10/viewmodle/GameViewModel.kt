@@ -1,22 +1,27 @@
 package com.example.top10.viewmodle
 
+import android.app.Application
 import androidx.compose.runtime.mutableStateOf
+import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.ViewModel
 import com.example.top10.AppLanguage
 import com.example.top10.model.Answer
+import com.example.top10.model.Question
 import com.example.top10.model.Team
-import com.example.top10.repo.sampleQuestions
+import com.example.top10.repo.QuestionRepository
 
-class GameViewModel : ViewModel() {
+
+class GameViewModel(application: Application) : AndroidViewModel(application) {
+
+    private val repository = QuestionRepository(application.applicationContext)
+    private val allQuestions: List<Question> = repository.loadQuestions()
+
+    private val shuffledQuestions = allQuestions.shuffled()
+    private var questionIndex = 0
 
     var selectedLanguage = mutableStateOf<AppLanguage?>(null)
     var team1 = mutableStateOf(Team("Team 1"))
     var team2 = mutableStateOf(Team("Team 2"))
-
-    // 🔥 Fragen gemischt (random Reihenfolge)
-    private val shuffledQuestions = sampleQuestions.shuffled()
-
-    private var questionIndex = 0
 
     var currentQuestion = mutableStateOf(shuffledQuestions[0])
     var answers = mutableStateOf(

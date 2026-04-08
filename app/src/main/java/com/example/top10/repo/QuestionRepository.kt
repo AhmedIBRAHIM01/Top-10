@@ -1,12 +1,21 @@
 package com.example.top10.repo
 
+import android.content.Context
 import com.example.top10.model.Answer
 import com.example.top10.model.Question
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
 
-val sampleQuestions = listOf(
+class QuestionRepository(private val context: Context) {
+    fun loadQuestions(): List<Question> {
+        val jsonString = context.assets.open("questions.json").bufferedReader().use { it.readText() }
+        val listType = object : TypeToken<List<Question>>() {}.type
+        return Gson().fromJson(jsonString, listType)
+    }
+}
 
     // 1️⃣ REICHE LÄNDER
-    Question(
+    /*Question(
         textGerman = "Nenne die Top 10 reichsten Länder",
         textEnglish = "Name the top 10 richest countries",
         textArabic = "اذكر أغنى 10 دول في العالم",
@@ -425,4 +434,4 @@ val sampleQuestions = listOf(
             Answer("Berkshire Hathaway", "Berkshire Hathaway", "بيركشاير", 10)
         )
     )
-)
+)*/

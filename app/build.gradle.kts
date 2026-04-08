@@ -51,6 +51,7 @@ dependencies {
 
         // Falls du LiveData benutzt
         implementation("androidx.compose.runtime:runtime-livedata:1.5.4")
+        implementation("com.google.code.gson:gson:2.10.1")
     }
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.ui.graphics)
