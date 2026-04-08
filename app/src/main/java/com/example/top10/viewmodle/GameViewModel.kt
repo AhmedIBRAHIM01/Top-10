@@ -8,22 +8,26 @@ import com.example.top10.model.Team
 import com.example.top10.repo.sampleQuestions
 
 class GameViewModel : ViewModel() {
+
     var selectedLanguage = mutableStateOf<AppLanguage?>(null)
     var team1 = mutableStateOf(Team("Team 1"))
     var team2 = mutableStateOf(Team("Team 2"))
 
-    var currentQuestion = mutableStateOf(sampleQuestions[0])
-    // Initialisiere die Antworten Liste
-    var answers = mutableStateOf(sampleQuestions[0].answers)
+    // 🔥 Fragen gemischt (random Reihenfolge)
+    private val shuffledQuestions = sampleQuestions.shuffled()
 
     private var questionIndex = 0
+
+    var currentQuestion = mutableStateOf(shuffledQuestions[0])
+    var answers = mutableStateOf(
+        shuffledQuestions[0].answers.map { it.copy(used = false) }
+    )
 
     fun assignAnswerToTeam(answerToAssign: Answer, teamNumber: Int) {
         if (answerToAssign.used) return
 
-        // Erzeuge neue Liste mit Kopie (für die Farbe)
         val updatedAnswers = answers.value.map { answer ->
-            if (answer== answerToAssign) {
+            if (answer == answerToAssign) {
                 answer.copy(used = true)
             } else {
                 answer
@@ -32,6 +36,7 @@ class GameViewModel : ViewModel() {
         answers.value = updatedAnswers
 
         val points = answerToAssign.rank
+
         when (teamNumber) {
             1 -> {
                 team1.value = team1.value.copy(score = team1.value.score + points)
@@ -45,20 +50,14 @@ class GameViewModel : ViewModel() {
     }
 
     fun nextQuestion() {
-        if (questionIndex < sampleQuestions.size - 1) {
+        if (questionIndex < shuffledQuestions.size - 1) {
             questionIndex++
 
-            val nextQ = sampleQuestions[questionIndex]
+            val nextQ = shuffledQuestions[questionIndex]
 
-            // WICHTIG: Setze den 'used' Status aller neuen Antworten auf false zurück,
-            // falls sie im Repository global definiert sind
-            val freshAnswers = nextQ.answers.map { it.copy(used = false) }
-
-            // Erst die Daten aktualisieren
             currentQuestion.value = nextQ
-            answers.value = freshAnswers
+            answers.value = nextQ.answers.map { it.copy(used = false) }
 
-            // Teams für die neue Runde zurücksetzen
             resetTeams()
         }
     }
